@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 16px 24px;
+  background: rgba(17, 17, 17, 0.8);
+  backdrop-filter: blur(10px);
+
+  border-bottom: 1px solid #222;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  color: white;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Contenedor de links */
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+/* Links */
+.links a {
+  position: relative;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* Hover */
+.links a:hover {
+  color: #78c850;
+}
+
+/* Línea animada abajo */
+.links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+
+  width: 0%;
+  height: 2px;
+  background: #78c850;
+
+  transition: 0.3s;
+}
+
+.links a:hover::after {
+  width: 100%;
+}

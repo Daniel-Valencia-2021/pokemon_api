@@ -1,0 +1,61 @@
+.delete-container {
+  padding: 30px;
+  text-align: center;
+}
+
+/* buscador */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #78c850;
+  cursor: pointer;
+}
+
+/* card */
+.delete-card {
+  margin: 0 auto;
+  max-width: 300px;
+  background: #111;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.delete-card img {
+  width: 150px;
+}
+
+/* botón eliminar */
+.delete-btn {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #ff4d4d;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

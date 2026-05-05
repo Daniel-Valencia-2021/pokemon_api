@@ -1,0 +1,61 @@
+.details-container {
+  padding: 30px;
+  text-align: center;
+}
+
+/* 🔍 buscadores */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #78c850;
+  cursor: pointer;
+}
+
+/* 🃏 card */
+.details-card {
+  margin: 0 auto;
+  max-width: 500px;
+  background: #111;
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.details-card img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.types {
+  color: #78c850;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.lorem {
+  color: #ccc;
+  font-size: 14px;
+}

@@ -1,0 +1,59 @@
+.create-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+}
+
+/* CARD */
+.create-card {
+  background: #111;
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  border: 1px solid #222;
+}
+
+/* INPUTS */
+.create-card input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.create-card input:focus {
+  outline: 1px solid #78c850;
+}
+
+/* CHECKBOX */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+}
+
+/* BOTÓN */
+.create-card button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #78c850;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.create-card button:hover {
+  background: #5aa63c;
+}

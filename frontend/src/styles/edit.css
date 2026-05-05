@@ -1,0 +1,68 @@
+.edit-container {
+  padding: 30px;
+  text-align: center;
+}
+
+/* 🔍 buscador */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.search-box input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: none;
+  background: #78c850;
+  cursor: pointer;
+}
+
+/* 🃏 card */
+.edit-card {
+  margin: 0 auto;
+  max-width: 400px;
+  background: #111;
+  padding: 25px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.edit-card input {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #222;
+  color: white;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ccc;
+}
+
+.edit-card button {
+  margin-top: 10px;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #f08030;
+  cursor: pointer;
+  font-weight: bold;
+}
