@@ -11,7 +11,7 @@ Aplicación fullstack para la gestión de Pokémon, desarrollada con **FastAPI**
 * FastAPI
 * SQLAlchemy
 * Pydantic
-* SQLite (o la base de datos que estés usando)
+* PostgreSQL
 
 ### Frontend
 
@@ -71,8 +71,8 @@ El proyecto sigue una arquitectura separada:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPO.git
-cd TU_REPO
+git clone https://github.com/Daniel-Valencia-2021/pokedex-fullstack
+cd pokedex-fullstack
 ```
 
 ---
@@ -112,12 +112,6 @@ App en:
 ```
 http://localhost:5173
 ```
-
----
-
-## 📷 Capturas (opcional)
-
-*Aquí puedes agregar screenshots de tu app*
 
 ---
 
